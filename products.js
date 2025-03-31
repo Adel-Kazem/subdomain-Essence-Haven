@@ -1,66 +1,64 @@
 const PRODUCTS = [
     {
         id: 1,
-        name: 'Premium Wireless Headphones',
-        description: 'Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and ultra-comfortable ear cushions for all-day listening.',
-        price: 199.99,
-        rating: 4.7,
-        stock: 15,
+        name: 'Midnight Oud',
+        description: 'A luxurious oriental fragrance featuring rich notes of oud, saffron, and amber. Perfect for evening wear and special occasions.',
+        price: 189.99,
+        rating: 4.8,
+        stock: 12,
         images: [
-            'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            'https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1619994403073-2cec844b8e63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1541643600914-78b084683601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'White', 'Blue'],
+        colors: ['30ml', '50ml', '100ml'],
         features: [
-            'Active Noise Cancellation',
-            'Bluetooth 5.0',
-            '30-hour battery life',
-            'Quick charge (5 min = 3 hours)',
-            'Voice assistant compatible'
+            'Oud Wood',
+            'Saffron',
+            'Amber',
+            'Vanilla',
+            'Musk'
         ]
     },
     {
         id: 2,
-        name: 'Smart Fitness Tracker',
-        description: 'Track your health and fitness goals with our advanced smart fitness tracker. Monitor heart rate, sleep patterns, and activity levels with precision sensors and a vibrant display.',
-        price: 89.99,
-        rating: 4.5,
-        stock: 42,
+        name: 'Mediterranean Citrus',
+        description: 'A refreshing blend of citrus notes inspired by the Mediterranean coast. Bergamot, lemon, and neroli create a bright, uplifting scent perfect for daytime wear.',
+        price: 120.00,
+        rating: 4.6,
+        stock: 25,
         images: [
-            'https://images.unsplash.com/photo-1575311373937-040b8e1fd6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1626371353531-b2cf4f8a4038?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            'https://images.unsplash.com/photo-1587017539504-67cfbddac569?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'Red', 'Green'],
+        colors: ['50ml', '100ml'],
         features: [
-            'Heart rate monitoring',
-            'Sleep tracking',
-            'Water resistant (50m)',
-            '7-day battery life',
-            'Smartphone notifications'
+            'Bergamot',
+            'Sicilian Lemon',
+            'Neroli',
+            'White Musk',
+            'Cedar'
         ]
     },
     {
         id: 3,
-        name: 'Portable Bluetooth Speaker',
-        description: 'Take your music anywhere with our compact yet powerful Bluetooth speaker. Featuring 360° sound, waterproof design, and 12 hours of playback for the perfect outdoor companion.',
-        price: 59.99,
-        rating: 4.2,
-        stock: 28,
+        name: 'Rose & Jasmine',
+        description: 'A timeless floral fragrance that combines the elegance of rose with the sensuality of jasmine. Enhanced with subtle notes of patchouli and amber for depth.',
+        price: 150.00,
+        rating: 4.9,
+        stock: 18,
         images: [
-            'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            'https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1615219415349-3d61a26f64c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1620217807749-41e573f551f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Orange', 'Blue', 'Gray'],
+        colors: ['30ml', '50ml', '100ml'],
         features: [
-            'Waterproof (IPX7)',
-            '360° sound technology',
-            '12-hour battery life',
-            'Built-in microphone',
-            'Portable design'
+            'Damascene Rose',
+            'Jasmine Sambac',
+            'Peony',
+            'Patchouli',
+            'Amber'
         ]
     }
-]
+];
